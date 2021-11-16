@@ -1,6 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg=" ➢ PORTOFOLIO Web"/>
 </template>
 
 <script>
@@ -14,13 +13,38 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style type="text/css">
+.social-media-icon {
+        padding: 10px 30px 10px 30px;
+        background: #222;
+        color: #fff;
+        margin: 10px;
+        border-radius: 5px;
+    }
+   /* a.social-media-icon:hover{
+        background: #fff!important;
+        color: #222!important;
+    }
+    */
+    .facebook{
+        background:  #244485!important;
+    }
+     
+    .twitter{
+        background: #1da1f2!important;
+    }
+    .instagram{
+        background: #ff5387!important;;
+   }
+.hello {
+  margin: 0 0 0 0;
+  background: #ffffff;
+	border: 1px solid #cccccc;
+	max-width: 100%;
+	padding: 8px 15px;
 }
+/*.bg{
+  background: url("./assets/img.jpg");
+  background-size: 100%;
+}*/
 </style>
