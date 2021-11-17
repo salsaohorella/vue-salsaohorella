@@ -43,8 +43,5 @@ export default {
 	max-width: 100%;
 	padding: 8px 15px;
 }
-/*.bg{
-  background: url("./assets/img.jpg");
-  background-size: 100%;
-}*/
+
 </style>
